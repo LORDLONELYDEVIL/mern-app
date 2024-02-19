@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
 
 import authroute from "./routes/authroute.js";
-import connectDB from "../db/connectDB.js";
+import connectDB from "./db/connectDB.js";
 import messageRoute from "./routes/messageRoute.js";
 import userRoutes from "./routes/userRoutes.js";
 
